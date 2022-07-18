@@ -1,0 +1,219 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+    background-color: rgb(243, 243, 243);
+}
+
+body>* {
+    padding: 0 1em;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 65rem;
+    margin: 0 auto;
+    box-shadow: 1px 1px 2px rgb(211, 211, 211);
+    position: relative;
+    z-index: 3;
+}
+
+header {
+    text-align: center;
+}
+
+.titre {
+    border-bottom: 2px solid rgb(211, 216, 238);
+    max-width: 55rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+header p {
+    font-family: 'Corinthia', cursive;
+    color: rgb(135, 141, 168);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 1.5rem;
+    font-family: 'Corinthia', cursive;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(64, 87, 95);
+    ;
+}
+
+.position,
+.position:hover {
+    color: rgb(228, 148, 0);
+    font-weight: bold;
+}
+
+main {
+    max-width: 65rem;
+    margin: -1rem;
+}
+
+.bande {
+    background-image: url('./../img/b1.png');
+    background-size: 100%;
+    height: 32rem;
+}
+
+.bande-img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.stl-content {
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgba(2, 2, 2, 0.5);
+}
+
+.stl-bande {
+    background-color: rgb(228, 148, 0);
+    width: 70%;
+    height: 0.5rem;
+}
+
+.note-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding: 1rem 2rem;
+    width: 30rem;
+    top: 10rem;
+    left: 35rem;
+    color: rgb(218, 225, 236);
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgb(133, 133, 133);
+}
+
+.note-bande h2 {
+    font-size: 2.5em;
+    margin: 2rem 0;
+    font-family: 'Neonderthaw', cursif;
+}
+
+.note-bande p {
+    font-size: 1em;
+    margin: 1rem 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.note-bande button {
+    padding: 0.7rem 1.7rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 82, 129);
+}
+
+.info-content {
+    width: 45rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 2.5em;
+    margin: 2rem 0;
+    font-family: 'Neonderthaw', cursif;
+}
+
+.info p {
+    font-size: 1em;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    width: 20rem;
+    margin: 0 auto;
+    color: rgb(165, 165, 165);
+}
+
+.info button {
+    padding: 0.7rem 1.7rem;
+    border: none;
+    margin: 2rem 0;
+    margin-top: 5rem;
+    border-radius: 3px;
+    background-color: rgb(228, 148, 0);
+    color: rgb(255, 255, 255);
+}
+
+.mini-footer {
+    background-color: rgb(64, 87, 95);
+    padding: 0.8rem 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.mini-footer img {
+    width: 1.5rem;
+}
+
+.mini-footer ul {
+    margin: 0.5rem 0;
+}
+
+.mini-footer .icon {
+    margin-bottom: 2rem;
+}
+
+.mini-footer li {
+    margin: 0 0.5rem;
+}
+
+.mini-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mn-ul {
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    height: 11rem;
+    position: relative;
+    z-index: 0;
+    margin-top: -7rem;
+}
+
+.made {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8em;
+    color: rgb(133, 133, 133);
+}

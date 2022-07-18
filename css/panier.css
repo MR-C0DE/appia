@@ -1,0 +1,258 @@
+.content-object {
+    margin: 0 auto;
+    max-width: 57rem;
+}
+
+.info-head {
+    margin: 1rem auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.info-head h2 {
+    font-size: 4rem;
+    color: rgb(133, 133, 133);
+    margin: 1.5rem 0;
+}
+
+.info-head p {
+    font-size: 2rem;
+    color: rgb(228, 148, 0);
+    margin-top: 2rem;
+}
+
+.article-content {
+    margin-bottom: 2rem;
+}
+
+.tab-article {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tab-article tr th {
+    font-weight: bold;
+}
+
+.tab-article tbody td {
+    padding: 1rem 2rem;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+}
+
+.tab-article .first {
+    text-align: left;
+    padding: 0 .5rem;
+}
+
+.tab-article tbody tr {
+    border: 1px solid #d1d1d1;
+    text-align: left;
+    padding: 0 .5rem;
+}
+
+.tab-article tbody .first img {
+    width: 1.5rem;
+}
+
+.tab-article tbody .first ul {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.tab-article tbody .first ul li {
+    margin-right: 1rem;
+}
+
+.tab-article tbody button {
+    background-color: rgb(114, 0, 0);
+    border: none;
+    color: aliceblue;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.tab-article tbody input {
+    width: 3rem;
+    border: none;
+    text-align: center;
+}
+
+.tab-article tfoot .midle {
+    text-align: right;
+}
+
+.tab-article tfoot .price {
+    text-align: center;
+}
+
+.tab-article tfoot tr {
+    border: 1px solid #d1d1d1;
+    border-right: none;
+    border-left: none;
+}
+
+.tab-article tfoot .ttl {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(228, 148, 0);
+}
+
+.art-btn {
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.art-btn ul {
+    display: flex;
+    justify-content: left;
+}
+
+.art-btn .dt {
+    font-weight: bold;
+}
+
+.art-btn .nb {
+    font-weight: normal;
+    color: #b9b9b9;
+}
+
+.art-btn button {
+    padding: .6rem 1.8rem;
+    font-weight: bold;
+    border: none;
+    font-size: .8rem;
+}
+
+.art-btn ul li {
+    margin-right: 4px;
+}
+
+.art-btn ul button.payer {
+    background-color: rgb(64, 87, 95);
+    border: 3px solid rgb(64, 87, 95);
+    color: white;
+}
+
+.art-btn ul button.return-achat {
+    background-color: rgb(255, 255, 255);
+    color: rgb(64, 87, 95);
+    border: 3px solid rgb(64, 87, 95);
+}
+
+.achat {
+    display: none;
+    width: 100%;
+    margin-bottom: 3rem;
+    border: 2px solid #d1d1d1;
+    border-left: none;
+    border-right: none;
+    padding: 1rem 0;
+}
+
+.formulaire-content h2 {
+    font-weight: bold;
+}
+
+.tab-form {
+    width: 40rem
+}
+
+.tab-form th.cl1 {
+    width: 12rem;
+    text-align: left;
+}
+
+.tab-form {
+    width: 40rem
+}
+
+.tab-form .first {
+    width: 10rem;
+}
+
+.tab-form th.cl2 {
+    width: 25rem;
+    text-align: left;
+    padding: 0.5rem 0;
+}
+
+.tab-form input {
+    width: 100%;
+    border: 1.5px solid rgb(211, 216, 238);
+    border-radius: 3px;
+    background-color: #fff;
+    padding: .3rem .5rem;
+    color: rgb(52, 54, 59);
+}
+
+.tab-form input[type="date"] {
+    font-size: 1rem;
+}
+
+.tab-form td {
+    padding: 0.5rem 0;
+}
+
+.paiement-reglement {
+    width: 37rem;
+    margin-top: 2rem;
+}
+
+.paiement-reglement h2 {
+    font-weight: bold;
+}
+
+.ul1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ul2 .li2 {
+    margin-left: 2rem;
+}
+
+.btn-send input {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.6rem;
+    border: none;
+    background-color: rgb(211, 216, 238);
+    border-radius: 5px;
+}
+
+.confirmation-achat {
+    padding: 1rem 0;
+    font-family: calibri;
+    display: none;
+}
+
+.confirmation-achat h2 {
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+.confirmation-achat h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ulclient,
+.ularticle {
+    display: block;
+    color: #a7a7a7;
+}
+
+.detail-prix h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+}

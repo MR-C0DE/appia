@@ -1,0 +1,96 @@
+    .formulaire-content {
+        border: 2px solid rgb(211, 216, 238);
+        border-left: none;
+        border-right: none;
+        width: 55rem;
+        margin: 0 auto;
+        margin-bottom: 6rem;
+    }
+    
+    .formulaire-content h2 {
+        color: black;
+        font-weight: bold;
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+    
+    .formulaire {
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+    
+    table th.cl1 {
+        width: 12rem;
+        text-align: left;
+    }
+    
+    table th.cl2 {
+        width: 25rem;
+        text-align: left;
+        padding: 0.5rem 0;
+    }
+    
+    table input {
+        width: 100%;
+        border: 1.5px solid rgb(211, 216, 238);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 0 0.5rem;
+    }
+    
+    table td {
+        padding: 0.5rem 0;
+    }
+    
+    .paiement {
+        width: 37rem;
+    }
+    
+    .ul1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .ul2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .ul2 .li2 {
+        margin-left: 2rem;
+    }
+    
+    .btn-send input {
+        margin-top: 1.5rem;
+        padding: 0.6rem 1.6rem;
+        border: none;
+        background-color: rgb(211, 216, 238);
+        border-radius: 5px;
+    }
+    
+    .panel-error {
+        display: none;
+        background-color: rgb(255, 212, 212);
+        text-align: center;
+        padding: 1rem 2rem;
+        margin: 1.5rem 0;
+        color: rgb(131, 32, 32);
+    }
+    
+    .panel-error p {
+        padding: .3rem 0;
+    }
+    
+    .panel-error-second {
+        background-color: rgb(255, 212, 212);
+        text-align: center;
+        padding: 1rem 2rem;
+        margin: 1.5rem 0;
+        color: rgb(131, 32, 32);
+    }
+    
+    .panel-error-second p {
+        padding: .3rem 0;
+    }
